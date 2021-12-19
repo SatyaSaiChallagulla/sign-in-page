@@ -1,0 +1,62 @@
+.log-in-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e1e2e6;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+  .log-in-container {
+    flex-direction: row;
+  }
+}
+
+.community-container {
+  font-family: 'Caveat';
+  background-color: #2f3240;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding-left: 50px;
+  padding-right: 10px;
+}
+
+.community-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.community-description {
+  font-size: 18px;
+  font-weight: 500;
+  color: #868687;
+}
+
+.sign-container {
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+@media screen and (min-width: 992px) {
+  .sign-container {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .community-container {
+    width: 75%;
+    border-bottom-left-radius: 7px;
+  }
+  .sign-container {
+    width: 25%;
+    border-top-right-radius: 7px;
+  }
+}

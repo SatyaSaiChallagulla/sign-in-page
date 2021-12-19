@@ -1,0 +1,86 @@
+.sign-button {
+  color: #8395de;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+
+.sign-in-button {
+  background-color: #031045;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  height: 40px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.forgot-password-text {
+  color: #8395de;
+  font-weight: 500;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.icons {
+  border: 1px solid #383838;
+  border-radius: 20px;
+  margin-right: 20px;
+  padding: 15px;
+  align-self: center;
+  cursor: pointer;
+}
+.icon {
+  font-size: 20px;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
